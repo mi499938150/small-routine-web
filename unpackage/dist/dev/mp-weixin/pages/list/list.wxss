@@ -1,0 +1,258 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: texticons;
+  font-weight: normal;
+  font-style: normal;
+  src: url("//at.alicdn.com/t/font_1737346_75j7erjt42p.ttf") format("truetype");
+}
+page {
+  background-color: #E8E7E6;
+}
+.wrapper-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+.wrapper-list .sticky-box {
+    width: 100%;
+    height: 100rpx;
+    line-height: 100rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.wrapper-list .sticky-box .list-header-before {
+      width: 20%;
+      height: 100rpx;
+}
+.wrapper-list .sticky-box .list-header-date {
+      width: 60%;
+      height: 100rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+              justify-content: center;
+}
+.wrapper-list .sticky-box .list-header-date .list-header-date-center {
+        width: 80%;
+        height: 100rpx;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+                flex-direction: row;
+}
+.wrapper-list .sticky-box .list-header-date .list-header-date-center .list-header-date-left {
+          width: 65%;
+          height: 100rpx;
+}
+.wrapper-list .sticky-box .list-header-date .list-header-date-center .list-header-date-right {
+          width: 35%;
+          height: 100rpx;
+}
+.wrapper-list .sticky-box .list-header-after {
+      width: 20%;
+      height: 100rpx;
+}
+.wrapper-list .wrapper-list-items {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    margin-top: 30rpx;
+    -webkit-justify-content: space-around;
+            justify-content: space-around;
+    background-color: #FFFFFF;
+}
+.wrapper-list .wrapper-list-items .list-items {
+      width: 100%;
+      height: 250rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+              justify-content: center;
+      border-bottom-width: 20rpx;
+      border-bottom-style: inset;
+      border-bottom-style: #CCCCCC #EFEFF4;
+}
+.wrapper-list .wrapper-list-items .list-items .items {
+        width: 95%;
+        height: 250rpx;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+}
+.wrapper-list .wrapper-list-items .list-items .items .items-first {
+          width: 100%;
+          height: 80rpx;
+          line-height: 80rpx;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: row;
+                  flex-direction: row;
+}
+.wrapper-list .wrapper-list-items .list-items .items .items-first .first-time {
+            width: 140rpx;
+            height: 80rpx;
+            font-size: 50rpx;
+            color: #1989FA;
+}
+.wrapper-list .wrapper-list-items .list-items .items .items-first .first-icon {
+            width: 100rpx;
+            height: 80rpx;
+            font-size: 50rpx;
+            font-family: texticons;
+}
+.wrapper-list .wrapper-list-items .list-items .items .items-second {
+          width: 100%;
+          height: 60rpx;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: row;
+                  flex-direction: row;
+}
+.wrapper-list .wrapper-list-items .list-items .items .items-second .second-time {
+            height: 60rpx;
+            line-height: 60rpx;
+            font-size: 26rpx;
+}
+.wrapper-list .wrapper-list-items .list-items .items .items-second .second-icon {
+            width: 60rpx;
+            height: 60rpx;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: row;
+                    flex-direction: row;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                    align-items: center;
+            line-height: 60rpx;
+}
+.wrapper-list .wrapper-list-items .list-items .items .items-second .second-icon .icon-h {
+              width: 50rpx;
+              height: 50rpx;
+              line-height: 50rpx;
+              color: #13227a;
+              font-family: texticons;
+}
+.wrapper-list .wrapper-list-items .list-items .items .items-three {
+          width: 100%;
+          height: 80rpx;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: row;
+                  flex-direction: row;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+                  justify-content: space-between;
+}
+.wrapper-list .wrapper-list-items .list-items .items .items-three .items-three-text {
+            width: 80%;
+            height: 80rpx;
+            line-height: 80rpx;
+}
+.wrapper-list .wrapper-list-items .list-items .items .items-three .items-three-text .three-icon {
+              width: 40rpx;
+              height: 80rpx;
+              color: #d81e06;
+              font-family: texticons;
+}
+.wrapper-list .wrapper-list-items .list-items .items .items-three .items-three-text .three-text {
+              width: 200rpx;
+              height: 80rpx;
+              font-size: 26rpx;
+}
+.wrapper-list .wrapper-list-items .list-items .items .items-three .items-three-button {
+            width: 20%;
+            height: 80rpx;
+}
+.wrapper-list .textcenter {
+    text-align: center;
+    font-size: 18px;
+}
+

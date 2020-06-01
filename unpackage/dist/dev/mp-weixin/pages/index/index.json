@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "backgroundColor": "#CCCCCC",
+  "usingComponents": {
+    "home-header": "/components/home/Header",
+    "home-swiper": "/components/home/Swiper",
+    "home-describe": "/components/home/Describe"
+  }
+}

@@ -1,0 +1,1 @@
+<view class=" header uni-bg-red"><view class="header-noticebar "><uni-notice-bar vue-id="4b8329d4-1" scrollable="{{true}}" single="{{true}}" show-icon="{{true}}" text="好消息,好消息,本店优惠多多~~~" bind:__l="__l"></uni-notice-bar></view></view>

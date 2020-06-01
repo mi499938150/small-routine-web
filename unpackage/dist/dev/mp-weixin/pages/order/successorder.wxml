@@ -1,0 +1,1 @@
+<view class="success-order-wrapper"><view class="success-order"><view class="success-order-first"><text>恭喜您！预约下单成功</text></view><view class="success-order-second"><button type="warn" data-event-opts="{{[['tap',[['toOrder',['$event']]]]]}}" bindtap="__e">点击前往查看</button></view></view></view>
